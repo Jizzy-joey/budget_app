@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Ensure assets are loaded correctly in production
+  base: '/budget_app/', // Ensure assets are loaded correctly in production
 })
